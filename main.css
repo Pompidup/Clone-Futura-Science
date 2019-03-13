@@ -8,8 +8,8 @@
     background-color: #EFEFEF;
 
 }
-h1, .aLaUne, .PlusPopulaire{
-    font-size: 1.6em;
+h1, .aLaUne, .PlusPopulaire, .Explorer{
+    font-size: 1.8em;
     font-weight: bold;
     font-style: italic;
     color: rgb(212, 204, 204);
@@ -21,6 +21,10 @@ h5, .carousel-item, .sr-only, .carousel-control-prev{
 }
 .badge{
     font-size: 0.9rem;
+    
+}
+.card-text{
+    text-shadow: 8px 8px 15px rgb(48, 47, 47);
 }
 h5{
     font-size: 1rem;
