@@ -8,31 +8,44 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container-fluid">
     <header>
         <div class="menu container firstmenu col-md-12 col-lg-12 d-none d-sm-block">
-            <ul class="nav nav-fill">
+            <ul class="nav nav-fill sticky-top">
+                
+                <li class="nav-item">
+                    <a href="#">Accueil |</a>
+                </li>
                 <span>En ce moment : </span>
                 <li class="nav-item">
-                    <a href="#accueil">Accueil |</a>
+                    <a href="#" class="text-white">article 1</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">article 1</a>
+                    <a href="#" class="text-white">article 2</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">article 2</a>
-                </li>
-                <li class="nav-item">
-                    <a href="">article 3</a>
+                    <a href="#" class="text-white">article 3</a>
                 </li>
             </ul>
         </div>
 
         <div class="container navigation col-12">
-            <span>
-                logo Futura
-            </span>
-
+            <nav class="navbar w-auto p-3">
+                <div class="pos-f-t w-auto p-3">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark">
+                        <h5 class="text-white h4">Collapsed content</h5>
+                        <span class="text-muted">Toggleable via the navbar brand.</span>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </nav>
+                </div>
+                <a class="navbar-brand" href="#">Futura</a>
+            </nav>
                 <ul>
                     <li><a href="#accueil">explorer</a></li>
                     <li><a href=""></a>vidéo</li>

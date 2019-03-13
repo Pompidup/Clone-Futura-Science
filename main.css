@@ -1,6 +1,9 @@
 .firstmenu {
     background-color: #263C4A;
 }
+.firstmenu span {
+    color: orange;
+}
 .reseauxSociaux {
     background-color: #EFEFEF;
 
