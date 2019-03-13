@@ -8,3 +8,26 @@
     background-color: #EFEFEF;
 
 }
+h1, .aLaUne, .PlusPopulaire{
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(212, 204, 204);
+}
+h5, .carousel-item, .sr-only, .carousel-control-prev{
+    color: black;
+    text-align: left;
+
+}
+.badge{
+    font-size: 0.9rem;
+}
+h5{
+    font-size: 1rem;
+    text-align: left;
+}
+.carousel-item{
+    border-left: 3px solid greenyellow;
+    height: 8rem;
+    width: 100%;
+}
