@@ -1,12 +1,40 @@
-.firstmenu {
+.container-fluid {
+    padding: 0;
+}
+.container {
+    padding: 0;
+}
+
+.firstMenu {
     background-color: #263C4A;
 }
-.firstmenu span {
+.firstMenu span {
     color: orange;
 }
-.reseauxSociaux {
+header {
+    background-color:whitesmoke;
+}
+.secondMenu {
+    background-color: whitesmoke;
+}
+.thirdMenu {
     background-color: #EFEFEF;
-
+}
+.thirdMenu li {
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+}
+.carouseltop {
+    padding-top: .5rem;
+}
+.carouseltop .carousel-item {
+    height: 300px;
+}
+.carouseltop .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
 h1, .aLaUne, .PlusPopulaire, .Explorer{
     font-size: 1.8em;
