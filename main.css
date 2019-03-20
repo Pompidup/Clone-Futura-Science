@@ -16,27 +16,26 @@ header {
 .firstMenu {
     font-size: 0.8rem;
     font-style: italic;
-
-
 }
-.firstMenu li {
-    line-height: 3.8rem;
 
-}
 .firstMenu .navbar-brand {
     font-size: 0.8rem;
 }
 .firstMenu .navbar {
     padding: 0;
-
 }
 .firstMenu a {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.firstMenu .nav-link {
+    padding: 0;
+}
 .secondMenu {
     background-color: whitesmoke;
 }
+
+
 .txtYellow {
     color: #FFC324;
 
