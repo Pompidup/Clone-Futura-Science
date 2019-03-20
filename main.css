@@ -214,7 +214,7 @@ body {
 }
 .imgconscience:hover{
     transform: scale(1.1);
-    transition: 3s;
+    transition: 2.3s ease-in-out;
 }
 .media-fabrice2{
     margin: 2rem;
