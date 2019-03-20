@@ -68,29 +68,32 @@ body {
     color: rgb(212, 204, 204);
     padding-top: 2rem;
 }
-#petittitre, .carouselitemfabrice, .sr-only-fabrice, .carousel-control-prev1{
+.petittitre, .carouselitemfabrice, .sr-only-fabrice, .carousel-control-prev1{
     color: black;
     text-align: left;
     letter-spacing: 0.1rem;
 
 }
-#petittitre:hover{
+.petittitre:hover{
     text-decoration: underline;
 }
-#petittitre:hover .media-body{
+.petittitre:hover .media-body{
     opacity: 0;
 }
-
-#petitblock{
+.titrebreves{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.petitblock{
     font-size: 0.9rem;
     
 }
 .petitecard-text{
-    text-shadow: 8px 4px 15px rgb(48, 47, 47);
+    text-shadow: 8px 4px 17px rgb(48, 47, 47);
     font-weight: bold;
     font-size: 1.5rem;
 }
-#petittitre{
+.petittitre{
     font-size: 1rem;
     text-align: left;
 }
