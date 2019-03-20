@@ -237,7 +237,9 @@ footer {
 }
 
 .ContactContainer{
-    background-color: #33cccc;
+    background-color: #55AAAD;
     height: 100%;
 }
-
+.contact {
+    padding-bottom: 50px;
+}
