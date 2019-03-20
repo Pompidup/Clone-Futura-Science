@@ -16,6 +16,7 @@ header {
 .firstMenu {
     font-size: 0.8rem;
     font-style: italic;
+
 }
 
 .firstMenu .navbar-brand {
@@ -34,7 +35,9 @@ header {
 .secondMenu {
     background-color: whitesmoke;
 }
-
+.secondMenu .navbar{
+    width: 100%;
+}
 
 .txtYellow {
     color: #FFC324;
@@ -42,22 +45,115 @@ header {
 }
 body {
     background-color: #EFEFEF;
+
 }
 .thirdMenu li {
     padding-right: 0.2rem;
     padding-left: 0.2rem;
 }
-.carouseltop {
-    padding-top: .5rem;
+.thirdMenu {
+    font-size: 0.8rem;
+    color: grey;
+}
+.fa-user {
+    color: #D7D7D7;
+}
+.fa-envelope {
+    color: #D7D7D7;
+}
+
+.espacemembre a{
+    color: grey;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
 }
 .carouseltop .carousel-item {
-    height: 300px;
+    height: 400px;
+
 }
 .carouseltop .carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
     min-height: 300px;
+    
+}
+.fa-facebook-f {
+    color: blue;
+}
+.fa-instagram {
+    color: pink;
+}
+.fa-youtube {
+    color: red;
+}
+.fa-rss {
+    color: orangered;
+}
+.reseauxSociauxFooter .fa-facebook-f {
+    color: white;
+}
+.reseauxSociauxFooter .fa-instagram {
+    color: white;
+}
+.reseauxSociauxFooter .fa-youtube{
+    color: white;
+}
+.reseauxSociauxFooter .fa-rss {
+    color: white;
+}
+
+
+
+
+
+.label {
+    background-color: black;
+    opacity: 0.4;
+}
+.carouseltop {
+    border: 20px solid black;
+    cursor: pointer;
+    
+}
+@-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(1, 1);
+    }
+    to {
+      -webkit-transform: scale(1.5, 1.5);
+    }
+  }
+  
+@keyframes zoom {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.5, 1.5);
+    }
+}
+.carousel-item > img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+
+.carouseltop h2 {
+    text-shadow: 0 0 7px rgba(0,0,0,.9);
+}
+.carouseltop .carousel-caption {
+    top: 7.5rem;
+    padding: 0 4rem 3rem;
+}
+.label_small {
+    font-size: 0.8rem;
+    height: 1rem;
+    line-height: 100%;
+    width: 100px;
+    background-color: #6145A9;
+    
 }
 /*CSS Fabrice---------------------------------------------------*/
 .grostitre{
@@ -123,6 +219,9 @@ body {
 footer {
     background-color: #263C4A;
     color: white;
+}
+.copy {
+    font-size: 0.6rem;
 }
 
 /*Contact-Magalie*/

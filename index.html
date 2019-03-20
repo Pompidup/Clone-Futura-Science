@@ -20,7 +20,7 @@
 
             <!--Menu TOP sticky-->
 
-            <div class="container-fluid firstMenu col-md-12 col-lg-12 d-none d-sm-block">
+            <div class="container-fluid firstMenu col-12 d-none d-sm-block">
                 <nav class="navbar navbar-expand-lg justify-content-center navbar-dark">
                     <a class="navbar-brand" href="#"><i class="fas fa-home"></i> Accueil |</a>
                     <ul class="navbar-nav navbar-dark">
@@ -41,49 +41,52 @@
             </div>
 
             <!--Sous Menu TOP sticky-->
-            <div class="container-fluid secondMenu col-md-12 col-lg-12 d-none d-sm-block">
-                <nav class="navbar navbar-expand-lg justify-content-center navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Futura</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+            <div class="container-fluid secondMenu d-none d-sm-block">
+                <div class="row justify-content-right">
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">| Explorer <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">| Vidéo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">| Photos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">| Expert</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">| Forum</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">| Code promo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-search"></i> </button></a>
-                            </li>
-                        </ul>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="col-xs-2 col-md-4 col-lg-3">
+                            <a class="navbar-brand" href="#">Futura</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse col-xs-10 col-md-8 col-lg-9" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">| Explorer <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">| Vidéo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">| Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">| Expert</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">| Forum</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">| Code promo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-search"></i> </button></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
 
-
-                    </div>
-                </nav>
             </div>
             <!--Menu FollowUs-->
 
             <div class="container-fluid thirdMenu col-md-12 col-lg-12 d-none d-sm-block">
-                <div class="row justify-content-center">
-                    <div class="reseauxSociaux">
+                <div class="row">
+                    <div class="reseauxSociaux col-4 offset-5 text-center">
                         <ul class="nav">
                             <li class="nav-item">
                                 <span>Suivez-nous :</span>
@@ -106,13 +109,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="espacemembre">
+                    <div class="espacemembre col text-right">
                         <ul class="nav">
                             <li class="nav-item">
-                                <a href="#"><i class="fas fa-user"></i>espace membre</a>
+                                <a href="#"><i class="fas fa-user"></i> espace membre</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#"><i class="far fa-envelope"></i>Lettres d'information</a>
+                                <a href="#"><i class="far fa-envelope"></i> Lettres d'information</a>
                             </li>
                         </ul>
                     </div>
@@ -133,23 +136,33 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="voie-lactee-etoiles.jpeg" class="d-block w-100" alt="voie-lactee-etoiles">
+
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p class="label_small">Sciences</p>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis</h2>
+                            <p class="label">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ex vel.
+                                Praesentium soluta nihil omnis optio quod eos blanditiis voluptas atque. Error rerum
+                                iste tempore dolorum at pariatur nihil corporis!</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="robotique.jpg" class="d-block w-100" alt="robotique">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="label_small">Sciences</p>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis</h2>
+                            <p class="label">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ex vel.
+                                Praesentium soluta nihil omnis optio quod eos blanditiis voluptas atque. Error rerum
+                                iste tempore dolorum at pariatur nihil corporis!</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="foret.jpg" class="d-block w-100" alt="foret">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <p class="label_small">Sciences</p>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis</h2>
+                            <p class="label">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ex vel.
+                                Praesentium soluta nihil omnis optio quod eos blanditiis voluptas atque. Error rerum
+                                iste tempore dolorum at pariatur nihil corporis!</p>
                         </div>
                     </div>
                 </div>
@@ -175,8 +188,8 @@
                 <div class="aLaUne container col-lg-3 col-md-10 col-sm-12">
                     <h1 class="grostitre">à la une</h1>
                     <span class="titrebreves badge badge-secondary">Les brèves de Futura
-                    <img src="https://previews.123rf.com/images/ellavector/ellavector1703/ellavector170300044/74424606-ic%C3%B4ne-%C3%A9clair-illustration-vectorielle.jpg"
-                        height="40" alt="eclair"></span><br>
+                        <img src="https://previews.123rf.com/images/ellavector/ellavector1703/ellavector170300044/74424606-ic%C3%B4ne-%C3%A9clair-illustration-vectorielle.jpg"
+                            height="40" alt="eclair"></span><br>
                     <div class="bd-example">
                         <div class="carouselExampleCaptions carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -204,7 +217,8 @@
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fond_blanc.svg/1024px-Fond_blanc.svg.png"
                                         class="d-block w-100" alt="image6">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="petittitre">De mystérieuses orques de type D repérées au large du Chili</h5>
+                                        <h5 class="petittitre">De mystérieuses orques de type D repérées au large du
+                                            Chili</h5>
                                     </div>
                                 </div>
                             </div>
@@ -235,8 +249,8 @@
                     </div>
                     <hr class="ligne">
                     <div class="media my-4">
-                        <img src="https://pixnio.com/free-images/2017/06/23/2017-06-23-07-32-59-900x600.jpg" class="mr-3"
-                            height="150" width="150" alt="image2">
+                        <img src="https://pixnio.com/free-images/2017/06/23/2017-06-23-07-32-59-900x600.jpg"
+                            class="mr-3" height="150" width="150" alt="image2">
                         <div class="media-body">
                             <span class="petitblock badge badge-info">ACTUALITE
                                 <img src="https://previews.123rf.com/images/ellavector/ellavector1703/ellavector170300044/74424606-ic%C3%B4ne-%C3%A9clair-illustration-vectorielle.jpg"
@@ -268,7 +282,8 @@
                             <span class="badge badge-danger">SCIENCES
                                 <img src="https://previews.123rf.com/images/ellavector/ellavector1703/ellavector170300044/74424606-ic%C3%B4ne-%C3%A9clair-illustration-vectorielle.jpg"
                                     height="20" alt="image"><br></span>
-                            <p class="card-text petitecard-text">Nasa : 50 ans après Apollo, un budget pour reconquérir la Lune et
+                            <p class="card-text petitecard-text">Nasa : 50 ans après Apollo, un budget pour reconquérir
+                                la Lune et
                                 au-delà...</p>
                         </div>
                     </div>
@@ -279,7 +294,8 @@
                             <span class="badge badge-primary">TECH
                                 <img src="https://previews.123rf.com/images/ellavector/ellavector1703/ellavector170300044/74424606-ic%C3%B4ne-%C3%A9clair-illustration-vectorielle.jpg"
                                     height="20" alt="image"><br></span>
-                            <p class="card-text petitecard-text">La tesla Model 3, n°2 des ventes de voitures électriques en France</p>
+                            <p class="card-text petitecard-text">La tesla Model 3, n°2 des ventes de voitures
+                                électriques en France</p>
                         </div>
                     </div>
                     <div class="card bg-dark text-white">
@@ -339,7 +355,8 @@
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fond_blanc.svg/1024px-Fond_blanc.svg.png"
                                         class="d-block w-100" alt="image6">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="petittitre">Io, une lune volcanique très active autour de Jupiter</h5>
+                                        <h5 class="petittitre">Io, une lune volcanique très active autour de Jupiter
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
@@ -576,17 +593,17 @@
                     <hr>
                     <div class="row justify-content-around">
                         <div class="col">
-                            <strong>FUTURA</strong>Explorer le monde
+                            <strong>FUTURA </strong> Explorer le monde
                         </div>
-                        <div class="col">
-                            <i class="fa fa-facebook" style="font-size:24px"></i>
-                            <i class='fab fa-twitter' style='font-size:24px'></i>
-                            <i class='fab fa-instagram' style='font-size:24px'></i>
-                            <i class='fab fa-youtube' style='font-size:24px'></i>
-                            <i class="fa fa-linkedin" style="font-size:24px"></i>
-                            <i class="fa fa-wifi" style="font-size:24px"></i>
+                        <div class="col reseauxSociauxFooter">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fas fa-rss"></i>
                         </div>
-                        <div class="col">
+                        <div class="col copy">
                             <span>2001-2019 Futura-Sciences, tous droits réservés - Groupes MadeInFutura</span>
                         </div>
                     </div>
