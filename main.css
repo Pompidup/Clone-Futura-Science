@@ -124,3 +124,22 @@ footer {
     background-color: #263C4A;
     color: white;
 }
+
+/*Contact-Magalie*/
+.grostitre1{
+    text-align: center;
+    font-size: 4.2em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: .01rem;
+    color: rgb(212, 204, 204);
+    padding-top: 2rem;
+}
+
+.ContactContainer{
+    background-color: aqua;
+}
+
+.ContactContainer{
+    text-align: left;
+}
