@@ -168,6 +168,12 @@ body {
 .grostitrevideos{
     position: relative;
     left: 40%;
+    font-size: 4.2rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: .01rem;
+    color: rgb(212, 204, 204);
+    padding-top: 2rem;
 }
 .petittitre, .carouselitemfabrice, .sr-only-fabrice, .carousel-control-prev1{
     color: black;
