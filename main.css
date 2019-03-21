@@ -365,8 +365,35 @@ footer {
 .contact {
     padding-bottom: 50px;
 }
+
+#soustitre{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#soustitre1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.text1{
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+
+}
+
+.btn-primary{
+    background-color: #32789D;
+
+}
+
 /* Responsive Font */
 
 .text-responsive {
     font-size: calc(100% + 1vw + 1vh);
   }
+
+
+
