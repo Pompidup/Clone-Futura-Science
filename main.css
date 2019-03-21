@@ -165,6 +165,10 @@ body {
     color: rgb(212, 204, 204);
     padding-top: 2rem;
 }
+.grostitrevideos{
+    position: relative;
+    left: 40%;
+}
 .petittitre, .carouselitemfabrice, .sr-only-fabrice, .carousel-control-prev1{
     color: black;
     text-align: left;
