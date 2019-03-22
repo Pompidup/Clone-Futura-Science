@@ -22,8 +22,12 @@ header {
 .firstMenu .navbar-brand {
     font-size: 0.8rem;
 }
+
 .firstMenu .navbar {
     padding: 0;
+}
+.firstMenu .navbar-nav {
+    flex-direction: row;
 }
 .firstMenu a {
     overflow: hidden;
@@ -238,7 +242,7 @@ body {
     position: absolute;
     top: 25%;
     left: 10%;
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
     text-shadow: 2px 5px black;
 }
@@ -330,20 +334,20 @@ body {
 .media-fabrice3{
     margin: 2rem;
     position: absolute;
-    top: 35%;
+    top: 38%;
     left: 60%;
 }
 .media-fabrice4{
     margin: 2rem;
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 60%;
 }
 .imgtitre{
     color: white;
     text-shadow: 8px 4px 17px rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 0.7;
     border-bottom: 1px dotted white;
 }
@@ -402,7 +406,7 @@ footer {
 /* Responsive Font */
 
 .text-responsive {
-    font-size: calc(100% + 1vw + 1vh);
+    font-size: calc(100% + 1.5vw + 1.5vh);
   }
 
 
