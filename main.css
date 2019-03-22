@@ -242,6 +242,7 @@ body {
     color: white;
     text-shadow: 2px 5px black;
 }
+
 /********************************************/
 .blocvideoimg1{
     padding: 0px 80px 0px;
@@ -405,5 +406,31 @@ footer {
     font-size: calc(100% + 1vw + 1vh);
   }
 
+/* Partie Actualité Magalie */
+
+.TitreCosmonaut h1{
+    position: absolute;
+    top: 1%;
+    padding-right: 15px;
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 8px 4px 17px rgb(48, 47, 47);
+}
+
+.entete{
+    text-align: left;
+    font-size : 1.2rem;
+    font-weight: bold;
+
+}
+
+.paraph1 {
+    font-size: 1rem;
+}
+
+.paraph2 {
+    font-size: 1rem;
+}
 
 
